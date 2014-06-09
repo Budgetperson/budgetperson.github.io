@@ -51,23 +51,23 @@ table {
 body {
     width: 90%;
     margin: 0 auto;
-    background-color: #F2FAF6;
+    background-color: #F0F0F0;
 }
 header {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     height: 50px;
-    border-bottom: 1px solid black;
+    /*border-bottom: 1px solid black;*/
     line-height: 50px;
 }
 
 #name {
     /*line-height: 50px;*/
     font-family: "Oswald";
-    font-weight: 700;
+    font-weight: 300;
     float: left;
-    font-variant: small-caps;
-    font-size: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
 }
  
 nav ul {
@@ -84,13 +84,13 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #02002E;
-    border-bottom: 1px dotted #02002E;
+    /*border-bottom: 1px dotted #02002E;*/
 }
 
 nav ul li a:hover {
     text-decoration: none;
     color: blue;
-    border-bottom: 1px dotted blue;
+    /*border-bottom: 1px dotted blue;*/
 }
 
 nav ul li:before {
@@ -111,7 +111,7 @@ nav ul li:first-child:before {
 #blurb {
     width: 90%;
     margin: 0 auto;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     font-family: 'Open Sans';
     font-size: 18px;
     line-height: 1.5;
@@ -123,8 +123,51 @@ nav ul li:first-child:before {
 }
 
 #life_info div {
-        margin-top: 20px;
-
+    margin-top: 20px;
     float: left;
     width: 33%;
+}
+
+#life_info div h2 {
+    font-family: "Oswald";
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#life_info div h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills ul li {
+    border: 1px solid #000;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-right: 2px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+[data-level="advanced"] {
+    order: 1;
+}
+
+[data-level="intermediate"] {
+    order: 2;
+}
+
+[data-level="beginner"] {
+    order: 3;
 }
