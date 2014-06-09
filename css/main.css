@@ -1,17 +1,73 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 body {
     width: 90%;
     margin: 0 auto;
+    background-color: #F2FAF6;
 }
 header {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
     height: 50px;
     border-bottom: 1px solid black;
+    line-height: 50px;
 }
 
 #name {
-    line-height: 50px;
-    font-family: "Open Sans";
+    /*line-height: 50px;*/
+    font-family: "Oswald";
     font-weight: 700;
     float: left;
+    font-variant: small-caps;
+    font-size: 30px;
 }
  
 nav ul {
@@ -20,17 +76,21 @@ nav ul {
 
 nav ul li {
     display: inline;
-    font-family: 'Open Sans';
+    font-family: 'Oswald';
+    font-size: 18px;
     /*line-height: 50px;*/
 }
 
 nav ul li a {
     text-decoration: none;
+    color: #02002E;
+    border-bottom: 1px dotted #02002E;
 }
 
 nav ul li a:hover {
     text-decoration: none;
     color: blue;
+    border-bottom: 1px dotted blue;
 }
 
 nav ul li:before {
@@ -46,4 +106,25 @@ nav ul li:hover {
 nav ul li:first-child:before {
     content:'';
     padding-right: 5px;
+}
+
+#blurb {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#life_info {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#life_info div {
+        margin-top: 20px;
+
+    float: left;
+    width: 33%;
 }
