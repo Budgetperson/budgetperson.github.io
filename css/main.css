@@ -1,0 +1,49 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+#name {
+    line-height: 50px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    float: left;
+}
+ 
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    font-family: 'Open Sans';
+    /*line-height: 50px;*/
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+nav ul li:before {
+    content:'\00B7';
+    padding-right: 5px;
+}
+
+nav ul li:hover {
+    color: blue;
+}
+
+
+nav ul li:first-child:before {
+    content:'';
+    padding-right: 5px;
+}
