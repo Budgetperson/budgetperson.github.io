@@ -54,8 +54,7 @@ body {
     background-color: #F0F0F0;
 }
 header {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    margin-top: 10px;
     height: 50px;
     /*border-bottom: 1px solid black;*/
     line-height: 50px;
@@ -117,6 +116,10 @@ nav ul li:first-child:before {
     line-height: 1.5;
 }
 
+#blurb span {
+    color: #0055E8;
+}
+
 #life_info {
     width: 80%;
     margin: 0 auto;
@@ -125,7 +128,12 @@ nav ul li:first-child:before {
 #life_info div {
     margin-top: 20px;
     float: left;
-    width: 33%;
+    width: 30%;
+    margin-right: 1.5%;
+}
+
+#life_info div:last-child {
+    margin-right: 0;
 }
 
 #life_info div h2 {
@@ -137,10 +145,10 @@ nav ul li:first-child:before {
 
 #life_info div h3 {
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     font-family: "Open Sans";
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
 }
 
@@ -150,7 +158,7 @@ nav ul li:first-child:before {
 }
 
 #skills ul li {
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 3px;
@@ -158,16 +166,21 @@ nav ul li:first-child:before {
     margin-right: 2px;
     font-family: 'Open Sans';
     font-size: 14px;
+    cursor: pointer;
+    margin-top: 3px;
 }
 
 [data-level="advanced"] {
     order: 1;
+    background-color: #E36B6B;
 }
 
 [data-level="intermediate"] {
     order: 2;
+    background-color: #FFA229;
 }
 
 [data-level="beginner"] {
     order: 3;
+    background-color: #AFEDB9;
 }
