@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: Home
+show_in_sidebar: false
 ---
 
 <p class="message">
