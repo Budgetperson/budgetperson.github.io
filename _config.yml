@@ -1,16 +1,16 @@
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
+gems: [jekyll-paginate, jekyll-gist]
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            'Yash Aggarwal'
 tagline:          'A Jekyll theme'
 description:      'UT Austin Computer Science. I love tech, basketball, music, and education. I really love combinations of them.'
-url:              http://hyde.getpoole.com
+url:              http://www.yashaggarwal.com
 baseurl:          /
 
 author:

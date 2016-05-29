@@ -1,31 +1,23 @@
 ---
 layout: page
-title: Home
+title: Now
 show_in_sidebar: false
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Summer vacation has begun! From now until my internship at HomeAway begins I will be:
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+1. Fixing some minor health issues.
 
-There are currently two themes built on Poole:
+2. Working through [Interview Cake](http://www.interviewcake.com).
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+3. Practicing and playing basketball, using EGT 2 by Drew Hanlen.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+4. Getting stronger using [StrongLifts](http://www.stronglifts.com).
 
-## Setup
+5. Reading and Listening
+	* Current Book: The Sports Gene by David Epstein. 
+	* Current Podcasts: The Tim Ferriss Show, Dunc'd On Basketball Podcast, The Lowe Post, and the Pure Sweat Basketball Show
 
-Some fun facts about the setup of this project include:
+6. (miscellaneous) meditating daily, upgrading my wardrobe, and writing more
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Ordered by priority, since there's not enough time to do everything.
