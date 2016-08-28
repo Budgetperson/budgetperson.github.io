@@ -6,6 +6,7 @@ show_in_sidebar: true
 
 <div class="posts">
   {% for post in paginator.posts %}
+  {% if post.swe == null %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url }}">
@@ -20,6 +21,7 @@ show_in_sidebar: true
       <a href="{{ post.url }}">read more</a>
     {% endif %}
   </div>
+  {% endif %}
   {% endfor %}
 </div>
 
