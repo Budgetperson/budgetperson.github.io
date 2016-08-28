@@ -4,20 +4,18 @@ title: Now
 show_in_sidebar: false
 ---
 
-Summer vacation has begun! From now until my internship at HomeAway begins I will be:
+Currently, I have a internship at HomeAway, so I'm working most of the time. Other things I'm doing:
 
 1. Fixing some minor health issues.
 
-2. Working through [Interview Cake](http://www.interviewcake.com).
+2. Experimenting with my diet.
 
-3. Practicing and playing basketball, using EGT 2 by Drew Hanlen.
+3. Practicing basketball, but not as much as I'd like to.
 
 4. Getting stronger using [StrongLifts](http://www.stronglifts.com).
 
 5. Reading and Listening
-	* Current Book: The Sports Gene by David Epstein. 
+	* Current Book: Just finished _The Obstacle is the Way_ by Ryan Holiday.
 	* Current Podcasts: The Tim Ferriss Show, Dunc'd On Basketball Podcast, The Lowe Post, and the Pure Sweat Basketball Show
 
-6. (miscellaneous) meditating daily, upgrading my wardrobe, and writing more
-
-Ordered by priority, since there's not enough time to do everything.
+6. Upgrading my wardrobe.

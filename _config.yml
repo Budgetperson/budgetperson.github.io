@@ -1,7 +1,7 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-gems: [jekyll-paginate, jekyll-gist]
+markdown:         kramdown
+highlighter:      rouge
+gems: [jekyll-paginate, jekyll-gist, github-pages]
 
 # Permalinks
 permalink:        pretty
@@ -14,8 +14,8 @@ url:              http://www.yashaggarwal.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Yash Aggarwal'
+  url:            http://www.yashaggarwal.com
 
 paginate:         5
 
